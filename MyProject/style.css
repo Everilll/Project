@@ -1,0 +1,153 @@
+body {
+    background-color: #005085;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 200px;
+    border: 1px solid white;
+    border-radius: 20px;
+    gap: 50px;
+    cursor: default;
+}
+
+.introduction img {
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.introduction h1 {
+    color: white;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 0;
+}
+
+.introduction h1 span {
+    font-size: 50px;
+    color: white;
+    transition: color 0.8s;
+}
+
+.introduction h1 span:hover {
+    background: linear-gradient(45deg, #ff0000, #1a53ff, #ea01ff, #fcfc00);
+    background-clip: text;
+    color: transparent;
+    background-size: 400% 400%;
+    animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0%;
+    }
+
+    50% {
+        background-position: 100%;
+    }
+
+    100% {
+        background-position: 0%;
+    }
+}
+
+.introduction p {
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.introduction p a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.introduction p a:hover {
+    color: rgb(238, 77, 77);
+    text-decoration: underline;
+    transition: all 0.3s;
+}
+
+.whatsapp {
+    background-color: #79ff51;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    margin-right: 7px;
+    transition: 0.1s;
+    cursor: default;
+}
+
+.whatsapp:hover {
+    background-color: #88ff63;
+    color: rgb(0, 0, 0);
+    transition: all 0.1s;
+}
+
+.whatsapp:active {
+    background-color: #7deb5b;
+    transition: all 0.1s;
+}
+
+.instagram {
+    background-color: #ff5fbc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    margin-right: 7px;
+    transition: 0.1s;
+    cursor: default;
+}
+
+.instagram:hover {
+    background-color: #ff0095;
+    color: #000000;
+    transition: all 0.1s;
+}
+
+.instagram:active {
+    background-color: #e70187;
+    transition: all 0.1s;
+}
+
+.tiktok {
+    background-color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    margin-right: 7px;
+    transition: 0.1s;
+    cursor: default;
+}
+
+.tiktok:hover {
+    background-color: #ffffff;
+    color: black;
+    transition: all 0.1s;
+}
+
+.tiktok:active {
+    background-color: #f1f1f1;
+    transition: all 0.1s;
+}
